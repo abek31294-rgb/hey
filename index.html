@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hye Market — Armenian & Middle Eastern Grocery</title>
+    <meta name="description" content="Fresno's premier specialty grocery for fresh Armenian lavash, imported confectioneries, Middle Eastern pantry staples, and regional specialties." />
+    <meta property="og:title" content="Hye Market — Armenian & Middle Eastern Grocery" />
+    <meta property="og:description" content="Fresno's premier specialty grocery for fresh Armenian lavash, imported confectioneries, Middle Eastern pantry staples, and regional specialties." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GroceryStore",
+        "name": "Hye Market",
+        "description": "Fresno's specialty Armenian and Middle Eastern market featuring daily fresh lavash flatbread, imported confections, and gourmet pantry goods.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2012 W Bullard Ave",
+          "addressLocality": "Fresno",
+          "addressRegion": "CA",
+          "postalCode": "93711",
+          "addressCountry": "US"
+        },
+        "telephone": "+15594489791",
+        "servesCuisine": ["Armenian", "Middle Eastern", "Mediterranean"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Specialty Market Offerings",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Fresh Armenian Lavash"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Imported Candies & Confections"
+              }
+            }
+          ]
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#FBF9F4] text-[#1C2826] font-sans antialiased selection:bg-[#203D2E] selection:text-[#FBF9F4]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

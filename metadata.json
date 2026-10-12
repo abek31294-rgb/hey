@@ -1,0 +1,6 @@
+{
+  "name": "Hye Market — Armenian & Middle Eastern Grocery",
+  "description": "Fresno's premier specialty grocery for fresh Armenian lavash, imported confectioneries, Middle Eastern pantry staples, and regional specialties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
